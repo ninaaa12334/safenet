@@ -1,18 +1,18 @@
 <?php
-/* Template Name: Orphanage Page - Improved */
+/* Template Name: Orphanage Page - WordPress Compatible */
 get_header();
 ?>
 
 <main class="orphanage-page">
-  <div class="container">
-    <!-- Enhanced Hero Section -->
-    <section class="page-hero">
-      <div class="hero-content">
-        <h1>Supporting Our Children's Future</h1>
-        <p>Every child deserves love, care, education, and the opportunity to thrive. At SafeNet, we work tirelessly with local orphanages to provide these essentials and create brighter tomorrows for vulnerable children.</p>
-      </div>
-    </section>
+  <!-- Enhanced Hero Section -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Supporting Our Children's Future</h1>
+      <p>Every child deserves love, care, education, and the opportunity to thrive. At SafeNet, we work tirelessly with local orphanages to provide these essentials and create brighter tomorrows for vulnerable children.</p>
+    </div>
+  </section>
 
+  <div class="container">
     <!-- Enhanced Understanding Section -->
     <section class="conditions-section">
       <h2>Understanding Their World</h2>
@@ -211,6 +211,18 @@ get_header();
     </section>
   </div>
 </main>
+<section class="donation-progress">
+  <div class="container">
+    <h2>Support Our Mission</h2>
+    <p>Help us reach our goal of $50,000 to support women and children.</p>
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: 60%;"></div>
+    </div>
+    <p>Raised: $30,000 / Goal: $50,000</p>
+    <a href="<?php echo site_url('/donate'); ?>" class="button button-primary">Donate Now</a>
+  </div>
+</section>
 
 <?php get_footer(); ?>
+
 
